@@ -2712,6 +2712,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-navigation/stack@npm:^6.3.29":
+  version: 6.3.29
+  resolution: "@react-navigation/stack@npm:6.3.29"
+  dependencies:
+    "@react-navigation/elements": ^1.3.30
+    color: ^4.2.3
+    warn-once: ^0.1.0
+  peerDependencies:
+    "@react-navigation/native": ^6.0.0
+    react: "*"
+    react-native: "*"
+    react-native-gesture-handler: ">= 1.0.0"
+    react-native-safe-area-context: ">= 3.0.0"
+    react-native-screens: ">= 3.0.0"
+  checksum: 2f32a45d02e1f8ea612c2c679dcdbf2274070cd41641aefa50524df4626cf2389ae03a9490271f37e4b9877c1a6350c65fcb27ead6fe559a8656efde7ffe260a
+  languageName: node
+  linkType: hard
+
 "@realm/babel-plugin@npm:^0.2.0":
   version: 0.2.0
   resolution: "@realm/babel-plugin@npm:0.2.0"
@@ -3772,6 +3790,7 @@ __metadata:
     "@react-navigation/bottom-tabs": ^6.5.20
     "@react-navigation/native": ^6.1.17
     "@react-navigation/native-stack": ^6.9.26
+    "@react-navigation/stack": ^6.3.29
     "@realm/babel-plugin": ^0.2.0
     "@realm/react": ^0.7.0
     "@rneui/base": ^4.0.0-rc.8
