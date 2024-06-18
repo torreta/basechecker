@@ -344,6 +344,7 @@ function OtrosScreen() {
       <Text>Otros!</Text>
       <Text>Check the console for output</Text>
       <MapView
+        provider='google'
         style={styles.map}
         initialRegion={{
           latitude: 37.78825,
